@@ -1,0 +1,36 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  padding: 4rem 0;
+  gap: 12px;
+  margin: auto;
+}
+
+.calendar {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(7, 150px);
+}
+.nav {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border: 1px solid #EAEAEA;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  overflow-y: auto;
+}
+
